@@ -1,0 +1,286 @@
+
+
+/* ------------ FONTS ---------------------------*/
+
+
+.baskervville-regular {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.baskervville-regular-italic {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pragati-narrow-regular {
+  font-family: "Pragati Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pragati-narrow-bold {
+  font-family: "Pragati Narrow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* ------------ STD STYLES ---------------------------*/
+
+.h1-fs-1{
+font-size: 13.999999999999998pt;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+
+
+
+.hr-style1{
+  background-color: #000000;
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    height: 2px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hr-style2{
+  background-color: #6495ED;
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    height: 2px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.hr-style3{
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    height: 2px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.hr-style4{
+    background-color: #000000;
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    height: 2px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+
+/* ------------ NAVBAR STYLES ---------------------------*/
+
+
+.container-fluid{
+    justify-content: flex-end;
+}
+
+
+.sportathon-logo-img{
+    width:100px;
+    height: 50px;
+    
+    margin-right: 1rem;
+}
+
+
+.dropdown-menu {
+   background-color: black;
+    font-family: 'Merriweather';
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: #fc9003;
+}
+
+.dropdown-menu .dropdown-item{
+    color:white;
+}
+
+
+.navbar-brand{
+    font-family:'Merriweather';
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left:1.5rem;
+    padding-right: 1.5rem;
+    font-family: 'Merriweather';
+    font-size: 18px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color:#fc9003;
+/*    background-color:#000;*/
+/*    text-decoration: underline;*/
+}
+
+.sportathon-logo:hover{
+    color:#e86c13;
+}
+
+/*----------------------HOME PAGE---------------------------------*/
+
+.home-section{
+padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    
+}
+
+.section-title{
+    font-family: 'Merriweather';
+    color: white;
+}
+
+.home-stats-img{
+    display:block;
+    width: 120px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.home-stats-panel{
+    background-color: #F6F7F7;
+    font-family: 'Oswald';
+    text-align: center;
+}
+
+.home-stats-nums{
+    color: #F58121;
+    font-size: 5rem;
+}
+
+
+.btn-story{
+    background-color:black;
+    border-color:black;
+}
+
+.btn-story:hover{
+    border-color: black;
+    background-color: black;
+    color: orange;
+}
+
+.btn-story:focus{
+    border-color: black;
+    background-color: black;
+    color: orange;
+}
+
+
+
+.regions-map-img{
+    margin-left: auto
+    
+}
+
+/*----------------------MISSION PAGE------------------*/
+
+.btn-partner{
+    border-color: #000000;
+    background-color: #FFFFFF;
+}
+
+.btn-partner:hover{
+    border-color: #fc9003;
+    background-color: #FFFFFF;
+}
+
+
+
+/*----------------------FOOTER---------------------------------*/
+
+
+.footsy{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    background-color:#000;
+    color: white;
+    font-family: 'Playfair Display';
+    text-align: center;
+}
+
+.ft-socials{
+    width: 28px;
+    height: 28px;
+    margin: 6px;
+    border-color: rgb(250, 250, 250);
+    border-width: 2px;
+    border-style: solid;
+    padding-bottom: 5px;
+    border-radius: 50%;
+}
+
+.ft-socials-link{
+    color:white;
+    text-decoration: underline;
+}
+
+.ft-socials-link:hover{
+    color: #fc9003;
+/*    text-decoration: underline;*/
+    text-decoration: #fc9003;
+}
+
+
+.ft-button-links{
+      background-color: #fc9003;
+   border-color: #fc9003;
+}
+
+.ft-button{
+    margin-top: 1rem;
+}
+
+.ft-button-links:hover{
+   background-color: #000; 
+    border-color: #fc9003; 
+}
+
+
+.ft-pages{
+    color: white;
+    text-decoration: none;
+    padding: 5px 0 5px 0;
+}
+
+.ft-pages:hover{
+    color: #fc9003;
+/*    text-decoration: underline;*/
+}
+
+.ft-p{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.footsy h1{
+    color: #cccccc;
+}
